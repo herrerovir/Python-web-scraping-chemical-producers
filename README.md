@@ -5,13 +5,13 @@ This repository contains an end to end data analysis project on the largest chem
 ## Table of content
  - [Intro](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Introduction)
  - [Goal](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Goal)
- - [Project Overview](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Project_Overview)
+ - [Project Overview](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Project-Overview)
  - [Dependencies](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Dependencies)
- - [Technical skills](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Technical_skills)
- - [Data set](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data_set)
- - [Data Cleaning](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data_cleaning)
- - [Data Exploratio](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data_exploration)
- - [Data Visualization](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data_visualization)
+ - [Technical skills](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Technical-skills)
+ - [Data set](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-set)
+ - [Data Cleaning](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-cleaning)
+ - [Data Exploration](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-exploration)
+ - [Data Visualization](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-visualization)
  - [Conclusion](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Conclusion)
 
 ## Introduction
