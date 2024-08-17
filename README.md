@@ -91,24 +91,23 @@ As expected from this project, the following questions were answered:
 
 * **Best-selling chemical companies in the world**
   
-![Top 5 best selling chemical companies in 2021](https://github.com/user-attachments/assets/f063d00a-0ab1-4bba-92a8-d1fbd4afca51)
+![Top 5 best selling chemical companies in 2021](https://github.com/user-attachments/assets/b9f609c3-2b31-4ac5-970f-ea4206c463a7)
 
 * **Fastest growing companies in the world**
   
-![Top 5 fastest growing chemical companies in 2021](https://github.com/user-attachments/assets/0d2d6bf9-b61b-4c5c-8fcd-60316505c628)
+![Top 5 fastest growing chemical companies in 2021](https://github.com/user-attachments/assets/0adaebf9-5a02-4274-aa8d-af32a11fe8a7)
 
 * **Countries with the largest amount of successful chemical companies in the world**
 
-![Distributioin of the most sucessful chemical companies by country in 20211](https://github.com/user-attachments/assets/1b532be0-94a3-445d-b280-f3d26ab7c464)
+![Distributioin of the most sucessful chemical companies by country in 2021](https://github.com/user-attachments/assets/1b532be0-94a3-445d-b280-f3d26ab7c464)
 
 * **Best-selling Geman chemical companies**
 
-![Top best selling German chemical companies in 2021](https://github.com/user-attachments/assets/36b69fb5-2e64-4c49-8500-26d4ede5d52b)
+![Top best selling German chemical companies in 2021](https://github.com/user-attachments/assets/7853da25-1bb0-44d3-9626-0a49000b713f)
 
 * **Fastest growing German chemical companies**
 
-![Top fastest growing German chemical companies in 2021](https://github.com/user-attachments/assets/91821b49-903c-417b-9ac6-40b67d886ea8)
-
+![Top fastest growing German chemical companies in 2021](https://github.com/user-attachments/assets/6b3294d9-dabc-4e99-a20b-82c181c3aba9)
 
 Looking ahead, there are several areas that are worthy of further exploration:
 
