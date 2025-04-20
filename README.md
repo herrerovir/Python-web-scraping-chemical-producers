@@ -38,10 +38,10 @@ The main objective is to scrape and analyze data on the **largest chemical produ
 - Visualize insights using Python libraries
 - Summarize key findings and discuss future opportunities
 
-
 ## 📂 Repository Structure
+
 ```
-Python-web-scraping-chemical-producers/
+Web-scraping-chemical-producers/
 │
 ├── data/ 
 │   ├── raw/
@@ -50,7 +50,7 @@ Python-web-scraping-chemical-producers/
 │       └── Largest-chemical-producers-cleaned.csv
 │
 ├── notebooks/
-│   └── web-scraping-largest-producers.ipynb
+│   └── Web-scraping-largest-producers.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -65,22 +65,20 @@ This project uses the following tools and libraries:
 - `pandas`, `numpy` – Data manipulation
 - `matplotlib`, `seaborn` – Visualization
 
-To run the **`python-web-scraping-chemical-producers`** project on your local machine, follow these detailed steps:
-
 ## 🏃‍♂️ How to Run the Project Locally
 
 ### 1. **Clone the Repository**
 
 Start by cloning the repository to your local machine using the following command:
 
-```bash
-git clone https://github.com/your-username/python-web-scraping-chemical-producers.git
+```shell
+git clone https://github.com/herrerovir/web-scraping-chemical-producers.git
 ```
 
 Change to the project directory:
 
 ```shell
-cd python-web-scraping-chemical-producers
+cd web-scraping-chemical-producers
 ```
 
 ### 2. **Install Dependencies**
@@ -98,9 +96,8 @@ This will install all necessary libraries such as `BeautifulSoup`, `pandas`, `re
 After installing the dependencies, you can run the Jupyter notebook to perform the data analysis. To start the notebook, use the following command:
 
 ```shell
-jupyter notebook notebooks/web-scraping-largest-producers.ipynb
+jupyter notebook notebooks/Web-scraping-largest-producers.ipynb
 ```
-
 This will open Jupyter Notebook in your default browser. The notebook will guide you through the process, from loading the raw data to performing analysis and generating visualizations.
 
 ## 🛠️ Technical Skills
