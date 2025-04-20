@@ -1,116 +1,162 @@
-# :factory: Web Scraping: largest chemical producers worldwide
+# 🏭 Web Scraping: Analyzing the Largest Chemical Producers Worldwide
 
-This repository contains an end to end data analysis project on the largest chemical companies in the world using Python. 
+This project presents an end-to-end data analysis workflow using **Python** to gather and explore data on the **largest chemical companies in the world (2021)**. Data is collected directly from **Wikipedia** using web scraping techniques and analyzed to discover patterns in company performance and regional distribution.
 
-## Table of content
- - [Intro](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Introduction)
- - [Goal](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Goal)
- - [Project Overview](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Project-Overview)
- - [Dependencies](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Dependencies)
- - [Technical skills](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Technical-skills)
- - [Data set](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-set)
- - [Data Cleaning](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-cleaning)
- - [Data Exploration](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-exploration)
- - [Data Visualization](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Data-visualization)
- - [Conclusion](https://github.com/herrerovir/Web-scraping-largest-chemical-producers-worldwide/blob/main/README.md#Conclusion)
+## 📑 Table of Contents
 
-## Introduction
-This data analysis project is focused on web scraping Wikipedia data using Python. 
+- [Introduction](#introduction)  
+- [Goal](#goal)  
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Dependencies](#dependencies)
+- [How to Run the Project Locally](#how-to-run-the-project-locally)
+- [Technical Skills](#technical-skills)  
+- [Dataset](#dataset)  
+- [Data Cleaning](#data-cleaning)  
+- [Data Exploration](#data-exploration)  
+- [Data Visualization](#data-visualization)  
+- [Conclusion](#conclusion)
 
-The purpose of this work is to extract relevant data from Wikipedia to obtain meaningful information about the largest chemical producing companies in the world in the year 2021.
+## 📌 Introduction
 
-In this project, a general analysis of chemical companies is performed using Python in order to discover valuable information. The analysis workflow includes essential steps such as data extraction, data cleaning, data exploration, data analysis and data visualization.
+This project focuses on extracting and analyzing information on the world's leading chemical producers from data extracted from Wikipedia. The goal is to convert publicly available unstructured data into valuable information through a structured analysis workflow that involves data extraction, cleaning, exploration and visualization.
 
-## Goal
-The **overall** objective of this project is to scrap from the Wikipedia website all relevant information on the largest chemical producers by sales in the year 2021. Once the data has been collected, it will be preprocessed to undergo exploration and analysis in order to later visualize the significant results obtained. 
+## 🎯 Goal
 
-Through the data analysis, it is expected to find answers to the following points:
+The main objective is to scrape and analyze data on the **largest chemical producers by sales in 2021**. The project aims to answer key questions such as:
 
-* Best-selling chemical companies in the world
-* Fastest growing companies in the world
-* Countries with the largest amount of successful chemical companies in the world
-* Best-selling Geman chemical companies
-* Fastest growing German chemical companies
+- Which companies are the top sellers globally?
+- Who are the fastest-growing chemical producers?
+- Which countries host the most successful companies?
+- What are the top-performing German chemical companies?
 
-## Project overview
-   1. Web scrape data from Wikipedia using Python
-   2. Perform data preprocessing to clean and prepare the scraped data
-   3. Data explotarion to find missing values, outliers, anomalies or patterns
-   4. Data visualization to communicate the information obtained during the analysis
-   5. Conclusion
+## 🧭 Project Overview
 
-## Dependencies
-The following tools are necessary to carry out this project:
+- Scrape structured data from Wikipedia using `BeautifulSoup`
+- Clean and format the scraped data for analysis
+- Explore the data to identify trends, outliers, and new features
+- Visualize insights using Python libraries
+- Summarize key findings and discuss future opportunities
 
-* Python 3
-* Jupyter Notebooks
-* Python libraries: 
-    - BeautifulSoup
-    - Requests
-    - Numpy
-    - Pandas
-    - Matplotlib.pyplot
-    - Seaborn
 
-## Technical skills
-The following skills were used throughout the implementation of this project:
+## 📂 Repository Structure
+```
+Python-web-scraping-chemical-producers/
+│
+├── data/ 
+│   ├── raw/
+│   │   └── Scraped-largest-chemical-producers.csv
+│   └── processed/
+│       └── Largest-chemical-producers-cleaned.csv
+│
+├── notebooks/
+│   └── web-scraping-largest-producers.ipynb
+├── requirements.txt
+└── README.md
+```
 
-* Web scraping
-* Data cleaning
-* Data exploration
-* Data visualization
+## ⚙️ Dependencies
 
-## Data set
-Data collection was achived by means of scraping techniques using the BeautifulSoup Python library.
+This project uses the following tools and libraries:
 
-The data set consists of:
-* 50 entries
-* 5 columns
+- Python 3
+- Jupyter Notebooks
+- `BeautifulSoup`, `requests` – Web scraping
+- `pandas`, `numpy` – Data manipulation
+- `matplotlib`, `seaborn` – Visualization
 
-**Data source:** [Wikipedia](https://en.wikipedia.org/wiki/List_of_largest_chemical_producers)
+To run the **`python-web-scraping-chemical-producers`** project on your local machine, follow these detailed steps:
 
-## Data cleaning
-To ensure the integrity and reliability of the data obtained by scraping the Wikipedia website, it was necessary to clean it. 
+## 🏃‍♂️ How to Run the Project Locally
 
-To this end, column names were modified to make them more informative and improve readability; numeric values were transformed from string to integer and float type and underwent minor changes to conform to the metric decimal system and data that were transferred with errors were also corrected to ensure their reliability.
+### 1. **Clone the Repository**
 
-## Data exploration
-To ensure that the data obtained from the analysis is accurate and reliable it is essential to handle duplicate values, missing values, outliers, as well as to find inconsistencies and patterns in the data.
+Start by cloning the repository to your local machine using the following command:
 
-No missing, duplicate or out-of-range values were found in this data set. The incorrectly transferred values were fixed in the previous step and no more errors were found. In addition, a new feature was created from the “Headquarters” column to obtain more precise information on the country of origin of the companies.
+```bash
+git clone https://github.com/your-username/python-web-scraping-chemical-producers.git
+```
 
-## Data visualization
-Data visualization plays a crucial role in data analysis, as it is the stage at which the conclusions drawn from the analysis are effectively communicated.
+Change to the project directory:
 
-This stage focuses on creating visual representations of the insights gained during the analysis. The Python libraries Matplotlib and Seaborn were used for this purpose.
+```shell
+cd python-web-scraping-chemical-producers
+```
 
-## Conclusion
-In conclusion, this project successfully analyzed the world's leading chemical producing companies using Python. 
+### 2. **Install Dependencies**
 
-As expected from this project, the following questions were answered:
+Install the required dependencies listed in the `requirements.txt`:
 
-* **Best-selling chemical companies in the world**
-  
-![Top 5 best selling chemical companies in 2021](https://github.com/user-attachments/assets/b9f609c3-2b31-4ac5-970f-ea4206c463a7)
+```shell
+pip install -r requirements.txt
+```
 
-* **Fastest growing companies in the world**
-  
-![Top 5 fastest growing chemical companies in 2021](https://github.com/user-attachments/assets/0adaebf9-5a02-4274-aa8d-af32a11fe8a7)
+This will install all necessary libraries such as `BeautifulSoup`, `pandas`, `requests`, `matplotlib`, and `seaborn`.
 
-* **Countries with the largest amount of successful chemical companies in the world**
+### 3. **Run the Jupyter Notebook**
 
-![Distributioin of the most sucessful chemical companies by country in 2021](https://github.com/user-attachments/assets/1b532be0-94a3-445d-b280-f3d26ab7c464)
+After installing the dependencies, you can run the Jupyter notebook to perform the data analysis. To start the notebook, use the following command:
 
-* **Best-selling Geman chemical companies**
+```shell
+jupyter notebook notebooks/web-scraping-largest-producers.ipynb
+```
 
-![Top best selling German chemical companies in 2021](https://github.com/user-attachments/assets/7853da25-1bb0-44d3-9626-0a49000b713f)
+This will open Jupyter Notebook in your default browser. The notebook will guide you through the process, from loading the raw data to performing analysis and generating visualizations.
 
-* **Fastest growing German chemical companies**
+## 🛠️ Technical Skills
 
-![Top fastest growing German chemical companies in 2021](https://github.com/user-attachments/assets/6b3294d9-dabc-4e99-a20b-82c181c3aba9)
+- Web scraping
+- Data cleaning & preprocessing
+- Exploratory data analysis
+- Data visualization
 
-Looking ahead, there are several areas that are worthy of further exploration:
+## 📊 Dataset
 
-* Develop advanced predictive models: Use machine learning algorithms to build predictive models that can accurately assess annual growth and revenue for these chemical companies. 
+The dataset was collected via **web scraping** from Wikipedia. It contains:
 
-* Expand the data set: Increase the robustness of the analysis by incorporating a larger and more diverse data set.
+- **50 entries**
+- **5 columns**
+- Data source: [Wikipedia – List of largest chemical producers](https://en.wikipedia.org/wiki/List_of_largest_chemical_producers)
+
+## 🧹 Data Cleaning
+
+To prepare the data for analysis:
+- Column names were standardized for readability.
+- Numeric fields were converted from strings and formatted correctly (e.g., decimal points, thousands separators).
+- Errors in scraped values were corrected.
+- A new column was derived from the "Headquarters" field to extract countries.
+
+## 🔍 Data Exploration
+
+The dataset was inspected for:
+- Missing or duplicate values (none found)
+- Incorrect formatting (resolved during cleaning)
+- Useful new features (e.g., country of origin from headquarters)
+
+This stage helped ensure the dataset’s quality and provided insights into potential patterns.
+
+## 📈 Data Visualization
+
+Data visualizations were created to clearly communicate the key findings:
+- **Top-selling chemical producers**
+- **Fastest-growing companies**
+- **Country-wise distribution of producers**
+- **German market leaders**
+
+Visualizations were created using `matplotlib` and `seaborn`.
+
+## ✅ Conclusion
+
+This project provided a global view of the chemical industry in 2021 through Python-based data scraping and analysis.
+
+**Key insights:**
+- The top 5 chemical companies by sales were identified.
+- Fastest-growing companies were highlighted.
+- A country-wise breakdown showed where top firms are concentrated.
+- Germany’s top-performing companies were analyzed separately.
+
+## 🔭 Future Work
+
+- **Predictive modeling:** Use machine learning to forecast company growth.
+- **Expand the dataset:** Include more years or additional variables (e.g., R&D spending, employees).
+- **Automate updates:** Build a pipeline to refresh the data annually.
